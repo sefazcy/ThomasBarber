@@ -1,5 +1,5 @@
 /* =========================
-   Thomas Barber - v0.3 CSS
+   Thomas Barber - v0.3.2 CSS
    ========================= */
 
 /* Reset */
@@ -325,6 +325,8 @@ button {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;
+    filter: saturate(0.95) contrast(1.05);
 }
 
 /* Stats */
@@ -375,7 +377,7 @@ button {
 }
 
 .about-image {
-    min-height: 470px;
+    height: 470px;
     overflow: hidden;
     border-radius: var(--radius-large);
     background: var(--bg-card);
@@ -386,6 +388,8 @@ button {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center center;
+    filter: saturate(0.95) contrast(1.05);
 }
 
 .about-content {
@@ -527,8 +531,16 @@ button {
     height: 280px;
     border-radius: var(--radius-medium);
     object-fit: cover;
+    object-position: center;
     background: var(--bg-card);
     border: 1px solid var(--border-soft);
+    filter: saturate(0.95) contrast(1.05);
+    transition: 0.25s ease;
+}
+
+.gallery-grid img:hover {
+    transform: translateY(-4px);
+    border-color: rgba(201, 162, 39, 0.45);
 }
 
 /* Team */
@@ -549,7 +561,9 @@ button {
     width: 100%;
     height: 360px;
     object-fit: cover;
+    object-position: center top;
     background: var(--bg-card);
+    filter: saturate(0.95) contrast(1.05);
 }
 
 .team-card h3 {
@@ -738,7 +752,7 @@ button {
     }
 
     .about-image {
-        min-height: 420px;
+        height: 420px;
     }
 
     .service-grid {
@@ -881,7 +895,7 @@ button {
     }
 
     .about-image {
-        min-height: 320px;
+        height: 320px;
     }
 
     .service-card,
