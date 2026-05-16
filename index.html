@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Thomas Barber | Modern Erkek Bakım Salonu</title>
+
+    <meta name="description"
+        content="Thomas Barber; saç kesimi, sakal tıraşı ve modern erkek bakım hizmetleri sunan profesyonel bir berber salonudur." />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-container">
+
+            <a href="#" class="logo">
+                <span class="logo-mark">TB</span>
+                <span class="logo-text">Thomas Barber</span>
+            </a>
+
+            <nav class="main-nav">
+                <a href="#about" data-i18n="navAbout">Hakkımızda</a>
+                <a href="#services" data-i18n="navServices">Hizmetler</a>
+                <a href="#pricing" data-i18n="navPricing">Fiyatlar</a>
+                <a href="#gallery" data-i18n="navGallery">Galeri</a>
+                <a href="#contact" data-i18n="navContact">İletişim</a>
+            </nav>
+
+            <div class="header-actions">
+                <button class="language-btn" id="languageToggle" type="button">
+                    EN
+                </button>
+
+                <a href="#appointment" class="btn btn-small" data-i18n="navAppointment">
+                    Randevu Al
+                </a>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container hero-container">
+
+                <div class="hero-content">
+                    <span class="section-label" data-i18n="heroLabel">
+                        Modern Erkek Bakımı
+                    </span>
+
+                    <h1 data-i18n="heroTitle">
+                        Tarzını Thomas Barber ile yeniden tanımla.
+                    </h1>
+
+                    <p data-i18n="heroText">
+                        Saç kesimi, sakal tıraşı ve kişisel bakımda temiz, hızlı ve profesyonel bir deneyim sunuyoruz.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#appointment" class="btn btn-primary" data-i18n="heroPrimaryBtn">
+                            WhatsApp ile Randevu Al
+                        </a>
+
+                        <a href="#services" class="btn btn-secondary" data-i18n="heroSecondaryBtn">
+                            Hizmetleri Gör
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <img src="assets/images/hero-barber.jpg" alt="Thomas Barber salonunda saç kesimi yapan berber" />
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Trust Stats -->
+        <section class="stats">
+            <div class="container stats-container">
+
+                <div class="stat-item">
+                    <strong>8+</strong>
+                    <span data-i18n="statExperience">Yıl Deneyim</span>
+                </div>
+
+                <div class="stat-item">
+                    <strong>1200+</strong>
+                    <span data-i18n="statCustomer">Mutlu Müşteri</span>
+                </div>
+
+                <div class="stat-item">
+                    <strong>4.9</strong>
+                    <span data-i18n="statRating">Google Puanı</span>
+                </div>
+
+                <div class="stat-item">
+                    <strong>100%</strong>
+                    <span data-i18n="statCare">Hijyenik Hizmet</span>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section-padding" id="about">
+            <div class="container about-container">
+
+                <div class="about-image">
+                    <img src="assets/images/about-barber.jpg" alt="Thomas Barber salon içi görünümü" />
+                </div>
+
+                <div class="about-content">
+                    <span class="section-label" data-i18n="aboutLabel">
+                        Hakkımızda
+                    </span>
+
+                    <h2 data-i18n="aboutTitle">
+                        Klasik berberlik anlayışını modern erkek bakımıyla birleştiriyoruz.
+                    </h2>
+
+                    <p data-i18n="aboutText">
+                        Thomas Barber, saç ve sakal bakımında detaylara önem veren, hijyenik ve profesyonel hizmet sunan
+                        modern bir erkek bakım salonudur. Amacımız sadece iyi bir kesim yapmak değil, her müşterinin
+                        kendini daha iyi hissetmesini sağlamaktır.
+                    </p>
+
+                    <a href="#contact" class="text-link" data-i18n="aboutLink">
+                        Bizi ziyaret edin
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services section-padding" id="services">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label" data-i18n="servicesLabel">
+                        Hizmetler
+                    </span>
+
+                    <h2 data-i18n="servicesTitle">
+                        İhtiyacına uygun profesyonel bakım hizmetleri
+                    </h2>
+
+                    <p data-i18n="servicesText">
+                        Günlük bakımından özel gün hazırlığına kadar tarzını tamamlayacak hizmetler sunuyoruz.
+                    </p>
+                </div>
+
+                <div class="service-grid">
+
+                    <article class="service-card">
+                        <div class="service-icon">✂️</div>
+                        <h3 data-i18n="serviceHairTitle">Saç Kesimi</h3>
+                        <p data-i18n="serviceHairText">
+                            Yüz şekline ve tarzına uygun modern ya da klasik saç kesimi.
+                        </p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">🧔</div>
+                        <h3 data-i18n="serviceBeardTitle">Sakal Tıraşı</h3>
+                        <p data-i18n="serviceBeardText">
+                            Sakal şekillendirme, kontür ve geleneksel tıraş deneyimi.
+                        </p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">🧴</div>
+                        <h3 data-i18n="serviceSkinTitle">Cilt Bakımı</h3>
+                        <p data-i18n="serviceSkinText">
+                            Yüz temizliği ve bakım uygulamalarıyla daha canlı bir görünüm.
+                        </p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">🔥</div>
+                        <h3 data-i18n="servicePackageTitle">Saç + Sakal Paket</h3>
+                        <p data-i18n="servicePackageText">
+                            Tam bakım isteyenler için saç kesimi ve sakal tıraşı paketi.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="pricing section-padding" id="pricing">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label" data-i18n="pricingLabel">
+                        Fiyat Listesi
+                    </span>
+
+                    <h2 data-i18n="pricingTitle">
+                        Net, sade ve ulaşılabilir fiyatlar
+                    </h2>
+
+                    <p data-i18n="pricingText">
+                        Hizmet almadan önce fiyatları kolayca inceleyebilirsiniz.
+                    </p>
+                </div>
+
+                <div class="pricing-list">
+
+                    <div class="pricing-item">
+                        <span data-i18n="priceHair">Saç Kesimi</span>
+                        <strong>₺350</strong>
+                    </div>
+
+                    <div class="pricing-item">
+                        <span data-i18n="priceBeard">Sakal Tıraşı</span>
+                        <strong>₺200</strong>
+                    </div>
+
+                    <div class="pricing-item">
+                        <span data-i18n="priceHairBeard">Saç + Sakal</span>
+                        <strong>₺500</strong>
+                    </div>
+
+                    <div class="pricing-item">
+                        <span data-i18n="priceSkin">Cilt Bakımı</span>
+                        <strong>₺450</strong>
+                    </div>
+
+                    <div class="pricing-item">
+                        <span data-i18n="priceStudent">Öğrenci Saç Kesimi</span>
+                        <strong>₺280</strong>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Why Us Section -->
+        <section class="why-us section-padding">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label" data-i18n="whyLabel">
+                        Neden Biz?
+                    </span>
+
+                    <h2 data-i18n="whyTitle">
+                        Thomas Barber deneyimini farklı kılan detaylar
+                    </h2>
+                </div>
+
+                <div class="why-grid">
+
+                    <article class="why-card">
+                        <h3 data-i18n="whyCleanTitle">Hijyenik Salon</h3>
+                        <p data-i18n="whyCleanText">
+                            Her müşteri sonrası temizlenen ekipman ve düzenli salon ortamı.
+                        </p>
+                    </article>
+
+                    <article class="why-card">
+                        <h3 data-i18n="whyTimeTitle">Randevulu Sistem</h3>
+                        <p data-i18n="whyTimeText">
+                            Bekleme süresini azaltan planlı ve düzenli çalışma yapısı.
+                        </p>
+                    </article>
+
+                    <article class="why-card">
+                        <h3 data-i18n="whyMasterTitle">Deneyimli Ustalar</h3>
+                        <p data-i18n="whyMasterText">
+                            Modern ve klasik kesimlerde tecrübeli profesyonel ekip.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Campaign Section -->
+        <section class="campaign">
+            <div class="container campaign-container">
+
+                <div>
+                    <span class="section-label" data-i18n="campaignLabel">
+                        Özel Kampanya
+                    </span>
+
+                    <h2 data-i18n="campaignTitle">
+                        Hafta içi öğrencilere özel saç + sakal paketi
+                    </h2>
+
+                    <p data-i18n="campaignText">
+                        Pazartesi - Perşembe günleri geçerli özel paket fiyatı için randevunuzu hemen oluşturun.
+                    </p>
+                </div>
+
+                <a href="#appointment" class="btn btn-primary" data-i18n="campaignBtn">
+                    Kampanyadan Yararlan
+                </a>
+
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery section-padding" id="gallery">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label" data-i18n="galleryLabel">
+                        Galeri
+                    </span>
+
+                    <h2 data-i18n="galleryTitle">
+                        Salonumuzdan ve işlerimizden kareler
+                    </h2>
+                </div>
+
+                <div class="gallery-grid">
+
+                    <img src="assets/images/gallery-1.jpg" alt="Modern saç kesimi örneği" />
+                    <img src="assets/images/gallery-2.jpg" alt="Sakal şekillendirme örneği" />
+                    <img src="assets/images/gallery-3.jpg" alt="Thomas Barber salon koltuğu" />
+                    <img src="assets/images/gallery-4.jpg" alt="Berber ekipmanları" />
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section class="team section-padding">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label" data-i18n="teamLabel">
+                        Ekibimiz
+                    </span>
+
+                    <h2 data-i18n="teamTitle">
+                        Tarzınızı emanet edeceğiniz profesyonel ustalar
+                    </h2>
+                </div>
+
+                <div class="team-grid">
+
+                    <article class="team-card">
+                        <img src="assets/images/master-1.jpg" alt="Berber Thomas Carter" />
+                        <h3>Thomas Carter</h3>
+                        <p data-i18n="teamOneRole">Saç Kesim Uzmanı</p>
+                    </article>
+
+                    <article class="team-card">
+                        <img src="assets/images/master-2.jpg" alt="Berber James Miller" />
+                        <h3>James Miller</h3>
+                        <p data-i18n="teamTwoRole">Sakal ve Bakım Uzmanı</p>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials section-padding">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label" data-i18n="testimonialLabel">
+                        Müşteri Yorumları
+                    </span>
+
+                    <h2 data-i18n="testimonialTitle">
+                        Müşterilerimiz Thomas Barber için ne söylüyor?
+                    </h2>
+                </div>
+
+                <div class="testimonial-grid">
+
+                    <article class="testimonial-card">
+                        <p data-i18n="testimonialOne">
+                            “Randevu saatine sadıklar, salon temiz ve saç kesimi gerçekten başarılı.”
+                        </p>
+                        <h3>Emre K.</h3>
+                    </article>
+
+                    <article class="testimonial-card">
+                        <p data-i18n="testimonialTwo">
+                            “Sakal şekillendirme konusunda çok iyiler. Her seferinde memnun ayrılıyorum.”
+                        </p>
+                        <h3>Mert A.</h3>
+                    </article>
+
+                    <article class="testimonial-card">
+                        <p data-i18n="testimonialThree">
+                            “Profesyonel, hızlı ve kaliteli bir hizmet. Kesinlikle tavsiye ederim.”
+                        </p>
+                        <h3>Can B.</h3>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Appointment / Contact Section -->
+        <section class="contact section-padding" id="contact">
+            <div class="container contact-container">
+
+                <div class="contact-content">
+                    <span class="section-label" data-i18n="contactLabel">
+                        İletişim
+                    </span>
+
+                    <h2 data-i18n="contactTitle">
+                        Randevu almak veya bizi ziyaret etmek çok kolay.
+                    </h2>
+
+                    <p data-i18n="contactText">
+                        WhatsApp üzerinden randevu oluşturabilir, çalışma saatlerimizi inceleyebilir veya konum
+                        bağlantısıyla salonumuza kolayca ulaşabilirsiniz.
+                    </p>
+
+                    <div class="contact-info">
+
+                        <div class="contact-item">
+                            <strong data-i18n="contactPhoneTitle">Telefon</strong>
+                            <a href="tel:+905010003528">+90 501 000 35 28</a>
+                        </div>
+
+                        <div class="contact-item">
+                            <strong data-i18n="contactMailTitle">E-posta</strong>
+                            <a href="mailto:info@thomasbarber.com">info@thomasbarber.com</a>
+                        </div>
+
+                        <div class="contact-item">
+                            <strong>Instagram</strong>
+                            <a href="#" target="_blank" rel="noopener">@thomasbarber</a>
+                        </div>
+
+                        <div class="contact-item">
+                            <strong data-i18n="contactAddressTitle">Adres</strong>
+                            <span data-i18n="contactAddress">
+                                Ankara / Çankaya
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="appointment-card" id="appointment">
+                    <h3 data-i18n="appointmentTitle">
+                        Çalışma Saatleri
+                    </h3>
+
+                    <ul class="working-hours">
+                        <li>
+                            <span data-i18n="mondayFriday">Pazartesi - Cuma</span>
+                            <strong>10:00 - 21:00</strong>
+                        </li>
+
+                        <li>
+                            <span data-i18n="saturday">Cumartesi</span>
+                            <strong>10:00 - 22:00</strong>
+                        </li>
+
+                        <li>
+                            <span data-i18n="sunday">Pazar</span>
+                            <strong data-i18n="closed">Kapalı</strong>
+                        </li>
+                    </ul>
+
+                    <a href="https://wa.me/905010003528" target="_blank" rel="noopener"
+                        class="btn btn-primary full-width" data-i18n="appointmentWhatsapp">
+                        WhatsApp ile Randevu Al
+                    </a>
+
+                    <a href="https://www.google.com/maps" target="_blank" rel="noopener"
+                        class="btn btn-secondary full-width" data-i18n="appointmentMap">
+                        Google Maps’te Aç
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+
+            <div>
+                <a href="#" class="logo footer-logo">
+                    <span class="logo-mark">TB</span>
+                    <span class="logo-text">Thomas Barber</span>
+                </a>
+
+                <p data-i18n="footerText">
+                    Modern erkek bakımında profesyonel ve güvenilir adres.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#about" data-i18n="navAbout">Hakkımızda</a>
+                <a href="#services" data-i18n="navServices">Hizmetler</a>
+                <a href="#pricing" data-i18n="navPricing">Fiyatlar</a>
+                <a href="#contact" data-i18n="navContact">İletişim</a>
+            </div>
+
+            <p class="copyright">
+                © 2026 Thomas Barber. All rights reserved.
+            </p>
+
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/905010003528" class="floating-whatsapp" target="_blank" rel="noopener"
+        aria-label="WhatsApp ile randevu al">
+        WhatsApp
+    </a>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
